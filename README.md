@@ -14,7 +14,7 @@ Ce projet propose un système intelligent capable de classer automatiquement les
 
 ## 🔹 Fonctionnalités principales
 
-- Chargement du dataset [AG News](https://huggingface.co/datasets/ag_news) depuis Hugging Face.  
+- Chargement du dataset [AG News](https://huggingface.co/datasets/SetFit/ag_news) depuis Hugging Face.  
 - Prétraitement des textes : normalisation, suppression des doublons, stopwords et ponctuation.  
 - Conversion des données en DataFrame pandas pour faciliter l’analyse.  
 - Génération des embeddings avec **Sentence Transformers**.  
