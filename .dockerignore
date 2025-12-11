@@ -1,0 +1,67 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs - exclude completely
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Environment
+.env
+.env.local
+
+# ChromaDB
+chromadb/
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+dags/__pycache__/
+
+# Documentation
+*.md
+!README.md
